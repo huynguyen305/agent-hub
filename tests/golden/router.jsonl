@@ -1,0 +1,158 @@
+{"text": "/analyze FPT 5 years", "label": "fin"}
+{"text": "Analyze HPG, standard depth", "label": "fin"}
+{"text": "Phân tích HPG 5 năm, toàn diện", "label": "fin"}
+{"text": "Is VCB expensive right now on P/B?", "label": "fin"}
+{"text": "Why are FPT's receivables growing faster than revenue?", "label": "fin"}
+{"text": "Định giá cổ phiếu MWG giúp tôi", "label": "fin"}
+{"text": "What's the ROE of TCB over the last 5 years?", "label": "fin"}
+{"text": "Run a quick analysis on VNM", "label": "fin"}
+{"text": "Phân tích BCTC của DGC 3 năm gần nhất", "label": "fin"}
+{"text": "Compare the margins of MSN and VNM", "label": "fin"}
+{"text": "Is GMD undervalued?", "label": "fin"}
+{"text": "Mã VHM có đắt không so với lịch sử P/E?", "label": "fin"}
+{"text": "Give me the dividend of REE for the past years", "label": "fin"}
+{"text": "Do a 360 analysis on ACB", "label": "fin"}
+{"text": "Cổ phiếu SSI dòng tiền hoạt động có ổn không?", "label": "fin"}
+{"text": "Valuation of AAPL vs its history", "label": "fin"}
+{"text": "Analyse the cash flow quality of PNJ", "label": "fin"}
+{"text": "Phân tích kỹ thuật cổ phiếu HPG", "label": "fin"}
+{"text": "/ask FPT what is the DSO trend", "label": "fin"}
+{"text": "What does the balance sheet of MBB look like? analyze it", "label": "fin"}
+{"text": "Explain how Delta Lake time travel works", "label": "coach"}
+{"text": "What is the difference between SCD type 1 and SCD type 2?", "label": "coach"}
+{"text": "Quiz me on Spark shuffles", "label": "coach"}
+{"text": "Giải thích expected credit loss theo IFRS 9", "label": "coach"}
+{"text": "How does a broadcast join avoid a shuffle?", "label": "coach"}
+{"text": "Teach me Black-Scholes intuition", "label": "coach"}
+{"text": "What is convexity and why does it matter for bonds?", "label": "coach"}
+{"text": "Ôn tập cho tôi về star schema", "label": "coach"}
+{"text": "How do I calculate WACC?", "label": "coach"}
+{"text": "Explain PD, LGD and EAD with an example", "label": "coach"}
+{"text": "What are watermarks in Structured Streaming?", "label": "coach"}
+{"text": "/quiz databricks", "label": "coach"}
+{"text": "Test me on the Greeks", "label": "coach"}
+{"text": "What's the difference between VaR and CVaR?", "label": "coach"}
+{"text": "Công thức tính NIM là gì?", "label": "coach"}
+{"text": "Explain BCBS 239 risk data aggregation principles", "label": "coach"}
+{"text": "How does Unity Catalog handle permissions?", "label": "coach"}
+{"text": "What should I study this week for the Databricks exam?", "label": "coach"}
+{"text": "Show my progress on financial engineering", "label": "coach"}
+{"text": "Giải thích Basel III capital adequacy ratio", "label": "coach"}
+{"text": "How does Ito's lemma work, intuitively?", "label": "coach"}
+{"text": "Explain the medallion architecture", "label": "coach"}
+{"text": "Ví dụ về dimensional modeling cho dữ liệu khoản vay", "label": "coach"}
+{"text": "What is FRTB and how does it change market risk capital?", "label": "coach"}
+{"text": "Explain how dbt incremental models work", "label": "coach"}
+{"text": "What are my weakest topics?", "label": "coach"}
+{"text": "Difference between duration and modified duration", "label": "coach"}
+{"text": "How do I implement CDC from a core banking system into Delta?", "label": "coach"}
+{"text": "Explain accruals ratio and what it says about earnings quality", "label": "coach"}
+{"text": "Học về Monte Carlo simulation cho VaR", "label": "coach"}
+{"text": "What is a CASA ratio and why do banks care?", "label": "coach"}
+{"text": "Explain Markowitz portfolio optimization", "label": "coach"}
+{"text": "Practice question on yield curves please", "label": "coach"}
+{"text": "How does Airflow differ from Step Functions?", "label": "coach"}
+{"text": "Teach me attention in transformers (CS336)", "label": "coach"}
+{"text": "Kiểm tra tôi về window functions trong SQL", "label": "coach"}
+{"text": "What is NPL ratio vs cost of risk?", "label": "coach"}
+{"text": "Explain partition pruning in Spark", "label": "coach"}
+{"text": "/explain IFRS 9 staging", "label": "coach"}
+{"text": "Explain the cash flow statement indirect method", "label": "coach"}
+{"text": "My manager keeps changing priorities mid-sprint. How do I push back?", "label": "people"}
+{"text": "How do I give feedback to a colleague who misses deadlines?", "label": "people"}
+{"text": "Sếp tôi không ghi nhận công việc của tôi, nên làm gì?", "label": "people"}
+{"text": "Prep me for a 1:1 with my director tomorrow", "label": "people"}
+{"text": "Draft a message to my team about the delayed release", "label": "people"}
+{"text": "A stakeholder from Risk is upset about the data delay", "label": "people"}
+{"text": "Làm sao góp ý cho đồng nghiệp mà không làm mất lòng?", "label": "people"}
+{"text": "How do I negotiate scope with the Finance team?", "label": "people"}
+{"text": "I had a conflict with a peer in the meeting today", "label": "people"}
+{"text": "/prep performance review with my squad member", "label": "people"}
+{"text": "How should I delegate better to my squad?", "label": "people"}
+{"text": "Roleplay a difficult conversation with my lead", "label": "people"}
+{"text": "Tôi bất đồng với quản lý về kiến trúc, nên thuyết phục thế nào?", "label": "people"}
+{"text": "My direct report seems frustrated, how do I start the conversation?", "label": "people"}
+{"text": "Debrief: the meeting with Compliance went badly", "label": "people"}
+{"text": "How do I say no to extra work without hurting the relationship?", "label": "people"}
+{"text": "Write an email to a stakeholder apologizing for the incident", "label": "people"}
+{"text": "Họp với khối Rủi ro tuần sau, tôi nên chuẩn bị gì?", "label": "people"}
+{"text": "How can I influence the architecture board without authority?", "label": "people"}
+{"text": "Someone took credit for my work in the steering meeting", "label": "people"}
+{"text": "Giao việc cho nhân viên mới thế nào cho hiệu quả?", "label": "people"}
+{"text": "How do I handle office politics around the migration project?", "label": "people"}
+{"text": "/draft reply to my PM about the timeline", "label": "people"}
+{"text": "Căng thẳng với team lead bên Finance, tôi nên làm gì?", "label": "people"}
+{"text": "How to prepare for my appraisal conversation", "label": "people"}
+{"text": "My teammates ignore my code review comments", "label": "people"}
+{"text": "What's the latest news on the Fed?", "label": "intel"}
+{"text": "What happened in the markets today?", "label": "intel"}
+{"text": "Tin tức hôm nay có gì quan trọng?", "label": "intel"}
+{"text": "/brief", "label": "intel"}
+{"text": "What should I care about this week?", "label": "intel"}
+{"text": "Any update on the SBV credit growth limits?", "label": "intel"}
+{"text": "Tình hình tỷ giá USD/VND gần đây thế nào?", "label": "intel"}
+{"text": "What's going on with oil prices?", "label": "intel"}
+{"text": "Why did the VN-Index drop yesterday?", "label": "intel"}
+{"text": "Latest on US tariffs and Vietnam exports", "label": "intel"}
+{"text": "Có gì mới về Databricks tuần này?", "label": "intel"}
+{"text": "What happened with the new circular on bank capital?", "label": "intel"}
+{"text": "Bản tin sáng nay", "label": "intel"}
+{"text": "/watch SBV regulation", "label": "intel"}
+{"text": "Recent news about AI agents in banking", "label": "intel"}
+{"text": "Giá vàng hôm nay tăng hay giảm?", "label": "intel"}
+{"text": "What's happening with inflation in the US right now?", "label": "intel"}
+{"text": "Is there anything new on the war affecting shipping?", "label": "intel"}
+{"text": "Lãi suất ngân hàng nhà nước tuần này có thay đổi không?", "label": "intel"}
+{"text": "Headlines on the election this week", "label": "intel"}
+{"text": "What did the ECB decide yesterday?", "label": "intel"}
+{"text": "Thông tư mới về an toàn vốn có gì đáng chú ý?", "label": "intel"}
+{"text": "Update on the recession fears", "label": "intel"}
+{"text": "Overnight news I should know", "label": "intel"}
+{"text": "Recent geopolitical tension in the South China Sea and markets", "label": "intel"}
+{"text": "/news AI regulation", "label": "intel"}
+{"text": "What's new with Snowflake and Databricks competition lately?", "label": "intel"}
+{"text": "Điểm tin công nghệ tuần này", "label": "intel"}
+{"text": "Gold price movement this week and why", "label": "intel"}
+{"text": "CPI print today, what does it mean?", "label": "intel"}
+{"text": "Help", "label": "ask"}
+{"text": "Thoughts?", "label": "ask"}
+{"text": "Can you help me with something", "label": "ask"}
+{"text": "Giúp tôi với", "label": "ask"}
+{"text": "I'm stuck", "label": "ask"}
+{"text": "What do you think about it", "label": "ask"}
+{"text": "Tôi cần lời khuyên", "label": "ask"}
+{"text": "ok", "label": "ask"}
+{"text": "Hmm, not sure where to start", "label": "ask"}
+{"text": "Let's continue", "label": "ask"}
+{"text": "How do I explain SCD2 to my manager who disagrees with the design?", "label": "ask"}
+{"text": "Teach me how to give feedback on a colleague's Spark code", "label": "ask"}
+{"text": "Can you check this for me", "label": "ask"}
+{"text": "Something is off", "label": "ask"}
+{"text": "Any advice?", "label": "ask"}
+{"text": "What is FPT's revenue growth?", "label": "fin"}
+{"text": "FPT news today", "label": "intel"}
+{"text": "Explain P/E ratio", "label": "coach"}
+{"text": "Is HPG a good stock to analyze for cash conversion? analyze it", "label": "fin"}
+{"text": "Why did VCB shares jump this week?", "label": "intel"}
+{"text": "Giải thích chỉ số P/B là gì", "label": "coach"}
+{"text": "What's the latest on Delta Lake 4.0?", "label": "intel"}
+{"text": "Explain how my squad should use Delta Lake merge", "label": "coach"}
+{"text": "Prepare me for a meeting with the Risk team about IFRS 9 data", "label": "people"}
+{"text": "Draft a message to Finance explaining the NIM report delay", "label": "people"}
+{"text": "Quiz me on bank financial statements", "label": "coach"}
+{"text": "What happened to TCB stock today?", "label": "intel"}
+{"text": "Tin tức về cổ phiếu ngân hàng hôm nay", "label": "intel"}
+{"text": "Học cách đọc báo cáo tài chính ngân hàng", "label": "coach"}
+{"text": "Analyze MBB, focus on NPL and capital", "label": "fin"}
+{"text": "How should I explain a data delay to an upset stakeholder?", "label": "people"}
+{"text": "What are the Basel rules on liquidity, LCR and NSFR?", "label": "coach"}
+{"text": "Đồng nghiệp hỏi tôi về Spark, tôi nên hướng dẫn thế nào?", "label": "ask"}
+{"text": "Market news on Vietnamese banks this week", "label": "intel"}
+{"text": "Teach me how to read a bank's income statement", "label": "coach"}
+{"text": "Give me the valuation of FPT and its peers", "label": "fin"}
+{"text": "How do I mentor a junior on dimensional modelling?", "label": "ask"}
+{"text": "What is the yield curve telling us today?", "label": "intel"}
+{"text": "Explain what an inverted yield curve means", "label": "coach"}
+{"text": "Help me prep a talk to executives about our data platform", "label": "people"}
+{"text": "Explain stochastic calculus basics for my MScFE module", "label": "coach"}
+{"text": "Phân tích cổ phiếu VPB giúp tôi, tập trung vào nợ xấu", "label": "fin"}

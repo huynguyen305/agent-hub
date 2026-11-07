@@ -1,0 +1,52 @@
+# Fin Analyst Agent theme: light and dark variants of one palette (violet primary, cyan accent,
+# soft neutral surfaces, rounded cards). With both [theme.light] and [theme.dark] set, the
+# app follows the system setting and the ⋮ menu → Settings lets each viewer pick Light, Dark
+# or System. The agent activity panel (app/genui_render.py) uses the same palette.
+
+[theme]
+# Inter from Google Fonts when reachable; Segoe UI / system sans otherwise (e.g. behind a corporate proxy)
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, 'Segoe UI', system-ui, sans-serif"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, 'Segoe UI', system-ui, sans-serif"
+headingFontWeights = [700, 650, 600]
+baseRadius = "0.75rem"
+buttonRadius = "0.6rem"
+showWidgetBorder = true
+showSidebarBorder = true
+chartCategoricalColors = ["#7C5CFF", "#0EA5E9", "#F59E0B", "#10B981", "#F43F5E", "#A78BFA", "#64748B"]
+
+[theme.light]
+primaryColor = "#6D4AFF"
+backgroundColor = "#F7F7FB"
+secondaryBackgroundColor = "#EEEEF6"
+textColor = "#14151A"
+borderColor = "#E2E2EC"
+linkColor = "#5B3DF5"
+codeBackgroundColor = "#F0EDFF"
+codeTextColor = "#4C2FD9"
+dataframeHeaderBackgroundColor = "#F1F1F8"
+
+[theme.light.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F3F9"
+borderColor = "#E2E2EC"
+
+[theme.dark]
+primaryColor = "#8B6CFF"
+backgroundColor = "#0B0D12"
+secondaryBackgroundColor = "#161A23"
+textColor = "#E7E9EE"
+borderColor = "#262B38"
+linkColor = "#A78BFA"
+codeBackgroundColor = "#1A1630"
+codeTextColor = "#C4B5FD"
+dataframeHeaderBackgroundColor = "#151925"
+
+[theme.dark.sidebar]
+backgroundColor = "#10131A"
+secondaryBackgroundColor = "#1A1F2A"
+borderColor = "#232836"
+
+[server]
+port = 8502
+address = "127.0.0.1"
+headless = true

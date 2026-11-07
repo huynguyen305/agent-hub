@@ -1,0 +1,99 @@
+# Single source of truth for scheduled jobs (Master Plan §3.2, ADR-H12).
+# Times are Asia/Ho_Chi_Minh. Cloud routines keep their own cron in Claude Code; when one
+# changes, change it here too. `python -m hub schedule check` reports missed runs.
+#
+# Not tracked here (out of the hub's scope, see the Job Inventory note): Daily LeetCode
+# Practice, TOEIC Lesson Emailer, Social Listening digest, Article Publishing Pipeline,
+# Vault Gardener + Orphan Cleanup, and the intraday monitor (manual).
+timezone: Asia/Ho_Chi_Minh
+
+jobs:
+  - name: til-research
+    agent: intel
+    runtime: cloud
+    owner: routine
+    routine_id: trig_01NDhtwNahQ5t7UWE6zaVedV
+    cron: "0 7,19 * * *"
+    evidence: {vault: "Domains/*/TIL/*.md"}
+    grace_minutes: 90
+    notes: The news source for World Intelligence (ADR-H09)
+
+  - name: pre-market-bulletin
+    agent: intel
+    runtime: cloud
+    owner: routine
+    routine_id: trig_01DsxaWTGzdjQkfXsFmyJ6yA
+    cron: "15 7 * * 1-5"
+    evidence: {vault: "Intelligence/Investment_Analysis/Daily_Brief_Financial/*.md"}
+    grace_minutes: 90
+    notes: Becomes the market section of the morning brief
+
+  - name: quiz-batch
+    agent: coach
+    runtime: cloud
+    owner: routine
+    routine_id: trig_01SeX4uic557rygW2MF4is9u
+    cron: "0 8,18 * * *"
+    evidence: {vault: "Context/Quiz_Log/quiz-state.json"}
+    grace_minutes: 60
+    notes: To be replaced by due cards (FSRS, ADR-H08) in Phase 2
+
+  - name: quiz-answer-reveal
+    agent: coach
+    runtime: cloud
+    owner: routine
+    routine_id: trig_014if9bPvwoqZgVgLZQc3mht
+    cron: "15 8,18 * * *"
+    evidence: {vault: "Context/Quiz_Log/*-Quiz-Log.md"}
+    grace_minutes: 60
+
+  - name: daily-study-coach
+    agent: coach
+    runtime: cloud
+    owner: routine
+    routine_id: trig_01K2goyBPgsTFHhJ5GvTqEhC
+    cron: "0 6 * * *"
+    evidence: none
+    notes: Writes a Gmail draft; its Daily/StudyCoach notes stopped on 2026-09-18, so no vault evidence
+
+  - name: stoic-stakeholder-practice
+    agent: people
+    runtime: cloud
+    owner: routine
+    routine_id: trig_01JYn3egNPcqgSNaek8qWWiU
+    cron: "30 5 * * *"
+    evidence: {vault: "Context/Stoic_Practice/Working-With-People-Stakeholders.md"}
+    grace_minutes: 90
+    notes: Generic practice only, no people data, so it may stay in the cloud
+
+  - name: skill-radar-weekly
+    agent: coach
+    runtime: cloud
+    owner: routine
+    routine_id: trig_01X1kLP2VXovieFS6S5tgKyS
+    cron: "0 8 * * 1"
+    evidence: none
+
+  - name: skill-radar-monthly
+    agent: coach
+    runtime: cloud
+    owner: routine
+    routine_id: trig_01HmaWEW6C672nNfU6PFWyzB
+    cron: "0 9 1 * *"
+    evidence: none
+
+  - name: weekly-review
+    agent: hub
+    runtime: cloud
+    owner: routine
+    routine_id: trig_01B3cS1od3EwgBB76a9dEcPe
+    cron: "0 20 * * 0"
+    evidence: {vault: "Projects/Weekly Reports and CTA/*.md"}
+    grace_minutes: 120
+
+  - name: missed-run-check
+    agent: hub
+    runtime: laptop
+    cron: "0 9,13,21 * * *"
+    evidence: none
+    notes: python -m hub schedule check --email; emails the list when something was missed

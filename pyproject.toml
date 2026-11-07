@@ -26,13 +26,14 @@ kb = [
   "python-dateutil>=2.8.2,<3",
 ]
 agents = ["langgraph>=1.2"]
+ui = ["streamlit>=1.40", "pandas>=2.2"]
 
 [build-system]
 requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["hubkit*"]
+include = ["hubkit*", "hub*", "channels*", "agents*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
