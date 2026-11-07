@@ -5,6 +5,10 @@ import pytest
 from hubkit.knowledge.store import KnowledgeBase, KnowledgeError
 from hubkit.knowledge.vault_docs import SCOPES, build_documents, split_long
 
+needs_kb = pytest.mark.skipif(
+    not all(__import__('importlib').util.find_spec(m) for m in ('graph_retriever', 'langchain_chroma')),
+    reason='knowledge extra not installed: pip install -e ".[kb]"')
+
 DE = "Domains/Data_Engineering"
 RSI_TEXT = ("The relative strength index compares average gains with average losses over fourteen days. "
             "Readings above seventy suggest overbought conditions and readings below thirty suggest oversold.")
@@ -71,6 +75,7 @@ def test_long_sections_split_on_paragraphs():
     assert len(pieces) > 1 and all(len(p) <= 800 for p in pieces)
 
 
+@needs_kb
 def test_graph_traversal_in_memory(vault):
     kb = KnowledgeBase(store="memory", embeddings="fake")
     kb.sync(vault, include=SCOPES["learning"])
@@ -84,6 +89,7 @@ def test_search_requires_index(tmp_path):
         KnowledgeBase(store="chroma", directory=tmp_path / "kb", embeddings="fake").search("x")
 
 
+@needs_kb
 def test_chroma_per_scope_directories(vault, tmp_path):
     learning = KnowledgeBase(store="chroma", directory=tmp_path / "kb" / "learning", embeddings="fake")
     first = learning.sync(vault, include=SCOPES["learning"])
